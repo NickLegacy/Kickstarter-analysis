@@ -1,18 +1,31 @@
-# Top Songs Pivot
+# Grade Book
 
-Pivot tables are exceptionally helpful when dealing with datasets that are large in scale, but contain enough similarities between data points to find commonalities. For this activity, you will be using pivot tables to show how many songs an artist has in the top 5000 and the sum of the final score of their songs.
+One of the most common uses of Excel in the field of academia is keeping track of students' grades. In this activity, you and your partner will create a spreadsheet that averages out the scores of a fictional class's students, then determines whether each student has passed or failed the course.
 
 ## Instructions
 
-1. Select all of the data within your worksheet and then create a new pivot table.
+* Create a formula that calculates the final grade for a student based upon their previous exams and papers.
 
-2. Make a pivot table which can be filtered by 'year' and which contains two rows: 'artist' and 'name'.
+* When making this calculation:
 
-   * All of an artist's songs should be listed underneath their name.
+  * Every paper and exam should be considered equal in weight
 
-3. Update your pivot table to contain values for:
+  * Each one should comprise one-fourth of a student's overall grade
 
-   1. How many songs an artist has in the top 5000.
-   2. The sum of the final_score of their songs.
+  * Round the result to the nearest integer
 
-4. Sort your pivot table by descending sum of the final_score.
+* Using conditionals, create a formula that returns `PASS` if a student's final grade is greater than or equal to 60. If the student's final grade is below 60, your formula should return `FAIL`.
+
+## Bonus
+
+* Create a nested `IF()` formula which returns a letter grade based on a student's final grade.
+
+  * Greater than or equal to 90 = `A`
+  * Greater than or equal to 80 and less than 90 = `B`
+  * Greater than or equal to 70 and less than 80 = `C`
+  * Greater than or equal to 60 and less than 70 = `D`
+  * Anything less than 60 = `F`
+
+## Hints
+
+* In case you need some help with nested `IF()` statements in Excel, [Nest Formulas](https://support.office.com/en-us/article/IF-function-%E2%80%93-nested-formulas-and-avoiding-pitfalls-0b22ff44-f149-44ba-aeb5-4ef99da241c8) is a support article that goes over how to do so.
