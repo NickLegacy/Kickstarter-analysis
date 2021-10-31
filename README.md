@@ -1,13 +1,18 @@
-# Production Pivot
+# Top Songs Pivot
 
-A small company sells electronics and electronic media has called upon you to create a table which visualizes the cost of their recent orders. Using the `VLOOKUP()` function, create a pivot table which serves this purpose.
+Pivot tables are exceptionally helpful when dealing with datasets that are large in scale, but contain enough similarities between data points to find commonalities. For this activity, you will be using pivot tables to show how many songs an artist has in the top 5000 and the sum of the final score of their songs.
 
 ## Instructions
 
-1. Determine the "Product Price" of each row in the "Orders" sheet by using a `VLOOKUP()` that references each row's "Product ID"
+1. Select all of the data within your worksheet and then create a new pivot table.
 
-* The "Product Price" of a row does not include shipping
+2. Make a pivot table which can be filtered by 'year' and which contains two rows: 'artist' and 'name'.
 
-2. Determine the "Shipping Price" of each row in the "Orders" sheet by using a `VLOOKUP()` that references each row's "Shipping Priority"
+   * All of an artist's songs should be listed underneath their name.
 
-3. Select all of the data on the "Orders" sheet and create a new pivot table that calculates the sum of both "Product Price" and "Shipping Price" for each "Order Number" and "Product ID"
+3. Update your pivot table to contain values for:
+
+   1. How many songs an artist has in the top 5000.
+   2. The sum of the final_score of their songs.
+
+4. Sort your pivot table by descending sum of the final_score.
