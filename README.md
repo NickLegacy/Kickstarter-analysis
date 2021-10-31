@@ -1,2 +1,10 @@
 # Kickstarter-analysis
-Performing analysis on Kickstarter data to uncover trends. - Module 1
+
+### Overview
+In this section describe the overview.
+
+### Analysis and Challenges
+In this section describe the analysis and challenges
+
+### Results
+This is section is for results
