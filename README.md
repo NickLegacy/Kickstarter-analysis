@@ -6,7 +6,7 @@ The purpose of this project is to examine data that has been collected and enter
 ### Analysis
 The Kickstarter datasheet has lots of data and pertains to lots of fields. This report narrows down the data and focuses on 2 main areas of study. The first area focuses on Theater outcomes by launch date. The data collected is from the years of 2009 until 2017. The data is presented in chart form and shows the total amounts of successful, failed, and canceled outcomes per month. The second area of study comes from data based on goals. This data is also presented in chart form and it shows Sucessful and Failed outcomes based on percentage according to a set goal total. 
 
-## Challenges
+### Challenges
 The biggest challenge encountered is how to explain misleading data. The data presented is in chart form, however, in this form alone the data can be misleading. To get a better understanding of the results, the data collected would need to be further broken down and include extra charts. 
 
 
