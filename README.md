@@ -1,4 +1,4 @@
-# Kickstarter-analysis
+# Kickstarter Analysis
 
 ### Overview
 The purpose of this project is to examine data that has been collected and entered into the Kickstarter datasheet. 
