@@ -1,12 +1,15 @@
 # Kickstarter-analysis
 
 ### Overview
-In this section describe the overview.
+The purpose of this project is to examine data that has been collected and entered into the Kickstarter datasheet. 
 
-### Analysis and Challenges
-In this section describe the analysis and challenges
+### Analysis
+The Kickstarter datasheet has lots of data and pertains to lots of fields. This report narrows down the data and focuses on 2 main areas of study. The first area focuses on Theater outcomes by launch date. The data collected is from the years of 2009 until 2017. The data is presented in chart form and shows the total amounts of successful, failed, and canceled outcomes per month. The second area of study comes from data based on goals. This data is also presented in chart form and it shows Sucessful and Failed outcomes based on percentage according to a set goal total. 
 
-## Results
+## Challenges
+The biggest challenge encountered is how to explain misleading data. The data presented is in chart form, however, in this form alone the data can be misleading. To get a better understanding of the results, the data collected would need to be further broken down and include extra charts. 
+
+
 
 ### Theater Results by Launch Date
 ![This is an image](https://github.com/NickLegacy/Kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch.png)
